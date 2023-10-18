@@ -1,0 +1,132 @@
+div, input, textarea, button {
+    box-sizing: border-box;
+}
+
+.background-container {
+    background-color: black;
+    padding : 30px;
+    width : 500px;
+    height : 570px;
+}
+
+.container {
+    background-color: white;
+    padding : 30px;
+    height : 100%;
+}
+.form-input {
+    width : 100%;
+    padding : 5px;
+    font-size : 15px;
+}
+
+.w-100 {
+    width : 100%;
+    padding : 0px 10px;
+}
+
+.w-50 {
+    width : 50%;
+    float : left;
+    padding : 0px 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.form-long{
+    height : 100px;
+}
+
+.f-l {
+    float : left;
+}
+.f-r {
+    float : right;
+}
+
+button[type=submit] {
+    background-color: orange;
+    border : none;
+    color : white;
+    width : 100px;
+    padding : 10px;
+    border-radius: 5px;
+}
+
+
+
+/* body {
+    background-color: rgb(97, 97, 97);
+}
+
+.form-container {
+    width : 400px;
+    height : 530px;
+    background-color: white;
+    padding : 30px 20px;
+    box-sizing: border-box;
+}
+
+h2, h4 {
+    margin : 0px;
+}
+
+.contact {
+    margin-bottom : 30px;
+}
+
+.Email{
+    margin-top : 30px;
+}
+
+.First-name {
+    float : left;
+    margin-top : 20px;
+    margin-right : 10px;
+}
+h4 {
+    margin-bottom : 5px;
+}
+.Last-name {
+    float : left;
+    margin-top : 20px;
+}
+
+.message {
+    clear : both;
+    margin-top : 90px;
+    margin-bottom : 30px;
+}
+
+
+input[type=email] {
+    width : 360px;
+    padding : 5px 3px;
+    box-sizing: border-box;
+}
+input[type=text] {
+    width : 170px;
+    padding : 5px 0px;
+}
+.message textarea {
+    width : 350px;
+    height : 180px;
+}
+input[type=checkbox] {
+
+}
+
+span {
+    margin-right : 155px;
+}
+
+input[type="submit"] {
+    border : none;
+    width : 100px;
+    height : 30px;
+    color : white;
+    background-color: orange;
+} */
+

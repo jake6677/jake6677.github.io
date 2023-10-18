@@ -1,0 +1,123 @@
+@font-face {
+    font-family : '나눔';
+    src : url(../font/NanumSquareR.woff)
+}
+
+body {
+    font-family: '나눔';
+}
+
+p,h4,h3,h2,h1,button,span,div {
+    transform : rotate(0.03deg)
+}
+
+div button{
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: rgb(199, 211, 225);
+    width : 800px;
+    padding : 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width : 100%;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+td {
+    padding : 5px;
+}
+
+tbody td:first-child {
+    width : 30px;
+}
+
+tbody tr td:nth-child(2) {
+    padding-left : 20px;
+}
+
+table tr td:last-child {
+    padding-right : 20px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.c-bgblue {
+    color: rgb(199, 211, 225);
+}
+
+.c-blue {
+    color : rgb(119, 166, 215)
+}
+
+.c-tblue {
+    color :rgb(26, 58, 93)
+}
+
+.img-size {
+    width : 100px;
+}
+
+.item-discription {
+    margin-top : 5px;
+    margin-left : 10px;
+    float : left;
+    height: 100%;
+}
+
+p {
+    margin : 0px;
+}
+
+td {
+    border-bottom : 2px solid rgb(199, 211, 225);
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+.totalValue {
+    border:none;
+    text-align:right;
+    padding : 20px;
+    font-size : 20px;
+}
+
+.bottom-box {
+    margin-top: 20px;
+}
+
+button {
+    background-color : rgb(26, 58, 93);
+    color : white;
+    padding : 15px;
+    width : 250px;
+    border-radius: 5px;
+    float : right;
+    cursor : pointer;
+    border : none;
+}
+
+button:hover {
+    background-color : rgb(75, 162, 255);
+}
+
+button:focus {
+    background-color: blueviolet;
+}
+button:active {
+    background-color: aquamarine;
+}
+

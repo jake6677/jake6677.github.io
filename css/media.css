@@ -1,0 +1,138 @@
+div p {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #eee;
+    padding : 30px;
+    width : 80%;
+    max-width: 1000px;
+    margin : auto;
+}
+
+.container i {
+    background-color: burlywood;
+    width : 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top : 25px;
+    box-sizing: border-box;
+    color : white;
+    margin-top: 20px;
+}
+
+.container>div {
+    float : left;
+    width : 25%;
+    text-align: center;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding : 30px;
+    max-width : 1000px;
+    margin : auto;
+    margin-top : 20px;
+}
+
+.shop-container {
+    display : flex;
+    justify-content :space-between;
+    gap : 30px;
+}
+.shop-item {
+    width : 33%;
+    padding : 15px;
+}
+.shop-item img{
+    width : 100%;
+    height: 100%;
+    display : block;
+}
+.shop-box {
+    position: relative;
+}
+
+.overlay-wrap {
+    position : absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-black {
+    box-sizing: border-box;
+    color : white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    padding : 20px;
+    margin-top : 100%;
+    transition: all 1s;
+}
+
+.overlay-wrap:hover .overlay-black {
+    margin-top : 50%
+}
+.shop-item p {
+    margin: 0;
+    font-size : 2vw
+}
+
+/* .overlay:hover {
+    opacity : 1;
+}
+
+.overlay>p {
+    padding-bottom : 2vw;
+} */
+
+@media screen and (max-width:992px) {
+    .container>div {
+        float : left;
+        width : 50%
+    }
+}
+
+@media screen and (max-width:769px) {
+    .container>div {
+        width : 100%
+    }
+}
+
+
+
+
+
+
+
+/* div {
+    box-sizing: border-box;
+}
+.container {
+    padding : 20px;
+    width : 600px;
+    gap : 20px;
+    display : flex;
+    background-color: #eee;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width : 1200px) {
+    .container {
+        width : 600px;
+    }
+}
+@media (max-width : 768px) {
+    .container {
+        width : 300px;
+    }
+}
+@media (max-width : 562px) {
+    .container {
+        width : 150px;
+    }
+} */

@@ -1,0 +1,43 @@
+body {
+    background-color: #f7f9fc;
+}
+
+.f-b {
+    color : #6fbaf8
+}
+
+.b-b {
+    background-color: #6fbaf8;
+}
+
+.border-b {
+    border-color : #6fbaf8 !important;
+}
+
+.shadow-custom {
+    box-shadow: 2px 2px rgb(218, 218, 218);
+}
+
+.p-20 {
+    padding : 0px 20px;
+}
+
+.pill {
+    border : 1px solid lightgray;
+    border-radius: 100px;
+    padding : 3px 12px 5px 12px;
+    margin-right : 2px;
+    margin-top : 5px;
+    display : inline-block;
+}
+
+
+@media (max-width : 992px) {
+    .border-none {
+        border : none !important;
+    }
+
+    .mh-1 {
+        height : 250px !important;
+    }
+}
